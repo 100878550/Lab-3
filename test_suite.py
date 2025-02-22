@@ -1,7 +1,7 @@
 import unittest
 
 # Import the TestShapes class
-from test_Lab3_Ethan_Teigan import TestShapes
+from test.test_Lab3_Ethan_Teigan import TestShapes
 
 def run_tests(choice):
     suite = unittest.TestSuite()

@@ -1,5 +1,5 @@
 import unittest
-from Lab3_Ethan_Teigan import circle_area, trapezium_area, ellipse_area, rhombus_area
+from app.Lab3_Ethan_Teigan import circle_area, trapezium_area, ellipse_area, rhombus_area
 
 class TestShapes(unittest.TestCase):
 

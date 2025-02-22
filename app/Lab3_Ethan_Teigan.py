@@ -1,8 +1,12 @@
 from math import pi
 
+#finds area of circle
 def circle_area(r):
+    #checks parameters is correct data type and that the numbers are greater than 0
     if isinstance(r, (int, float)) and r > 0:
+        #returns the calculated area
         return pi * (r ** 2)
+    #if parameters are invalid raise an error message
     else:
         raise ValueError("Invalid radius. Must be a non-negative number.")
 
