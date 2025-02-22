@@ -14,11 +14,6 @@ def trapezium_area(a, b, h):
             raise ValueError("One of the values given is a negative number.")
     else:
         raise ValueError("All inputs must be numeric (int or float).")
-
-
-    
-    
-
 def ellipse_area(a, b):
     if isinstance(a,(int,float)) and isinstance(b,(int,float)):
         if a > 0 and b > 0 : 
